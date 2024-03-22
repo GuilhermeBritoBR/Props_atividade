@@ -6,5 +6,5 @@ export default function ImageComponent() {
     uri: "https://www.boqnews.com/wp-content/uploads/2018/10/aparecida-basilica-capa.jpg",
   };
 
-  return <Image source={Img} style={Styles.img} resizeMode="contain" />;
+  return <Image source={Img} style={Styles.img} resizeMode="cover" />;
 }
